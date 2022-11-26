@@ -23,7 +23,8 @@ h2 {
 
 body {
     background-image: url(https://i.pcmag.com/imagery/articles/05hXk1J5R4iHWkM13wqrr9M-7.jpg);
-    background-size:cover;
+    background-size: fixed;
+    display: block;
    
 }
 

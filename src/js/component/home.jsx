@@ -18,7 +18,7 @@ const Home = () => {
 
 	const deleteTasks = (indice) => {
 		let listaRemovida = listTasks.filter(
-			(item, posicion) => posicion !== indice
+			(i, posicion) => posicion !== indice
 		);
 		setlistTasks(listaRemovida);
 	};
